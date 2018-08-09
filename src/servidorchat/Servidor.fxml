@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="305.0" prefWidth="600.0" style="-fx-background-color: #1E1E20;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SolicitacaoMensagemController">
+    <stylesheets>
+        <URL value="@/views/css/solicitacaomensagem.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="219.0" layoutY="31.0" text="Server em Execução" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
